@@ -1,0 +1,31 @@
+﻿CREATE TABLE [dbo].[орг] (
+  [орг_код] [int] IDENTITY,
+  [орг_имя] [varchar](300) NULL,
+  [орг_имя_пол] [varchar](1000) NULL,
+  [орг_имя_кор] [varchar](1000) NULL,
+  [счет_номер] [char](30) NULL,
+  [счет_банк] [char](30) NULL,
+  [унп] [char](15) NULL,
+  [адрес] [varchar](500) NULL,
+  [город] [char](50) NULL,
+  [стр_код] [int] NULL,
+  [рук_фио_кор] [char](50) NULL,
+  [рук_фио_пол] [char](50) NULL,
+  [рук_должность] [char](200) NULL,
+  [дейст_на_осн] [varchar](500) NULL,
+  [тел_рук] [char](50) NULL,
+  [контакт_фио] [char](30) NULL,
+  [тел_контакт] [char](50) NULL,
+  [преамбула] [varchar](1000) NULL,
+  [счет_мфо] [char](30) NULL,
+  [тел_факс] [char](15) NULL,
+  [тел_гор] [char](15) NULL,
+  [тел_Velcom] [char](15) NULL,
+  [тел_MTC] [char](15) NULL,
+  [тел_Life] [char](15) NULL,
+  [е_маил] [char](50) NULL,
+  [индекс] [bigint] NULL,
+  CONSTRAINT [PK_орг] PRIMARY KEY CLUSTERED ([орг_код])
+)
+ON [PRIMARY]
+GO

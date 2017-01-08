@@ -1,0 +1,30 @@
+﻿CREATE TABLE [dbo].[я_Стат_4_тур_Таблица_3_Детали] (
+  [стр_имя] [char](50) NULL,
+  [Код строки] [int] NULL,
+  [Выручка] [numeric](38, 2) NULL,
+  [Человек] [int] NULL,
+  [койко_суток] [numeric](38, 1) NULL,
+  [орг_имя_хоз] [char](50) NULL,
+  [дз_МЕС] [int] NULL,
+  [дата_min] [date] NULL,
+  [дата_max] [date] NULL,
+  [ски_сум] [numeric](38, 2) NULL,
+  [опер_код] [int] NOT NULL,
+  [сут_Период] [numeric](38, 1) NULL,
+  [сут_Всего] [numeric](4, 1) NULL,
+  [кол_взр] [int] NULL,
+  [кол_дет] [int] NULL,
+  [орг_имя] [varchar](300) NULL,
+  [орг_имя_пол] [varchar](1000) NULL,
+  [ФИО] [varchar](92) NULL,
+  [счет_имя] [varchar](300) NULL,
+  [орг_код] [int] NULL,
+  [орг_хоз_код] [int] NULL,
+  [дз_ГОД] [int] NULL,
+  [д_год] [int] NULL,
+  [д_мес] [int] NULL,
+  [тип_код] [int] NULL,
+  [СНГ] [bit] NULL
+)
+ON [PRIMARY]
+GO
